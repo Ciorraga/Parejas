@@ -1,0 +1,33 @@
+.images_par
+{
+	
+	width: 100% !important;
+	height: 187px ;
+	min-height: 150px !important;
+	min-width: 130px !important;
+    -webkit-transition: all 0.3s ease-in-out;/* Safari 3.2+, Chrome */
+	-moz-transition: all 0.3s ease-in-out;/* Firefox 4-15 */
+	-o-transition: all 0.3s ease-in-out;/* Opera 10.5-12.00 */
+	transition: all 0.3s ease-in-out;/* Firefox 16+, Opera 12.50+ */
+}
+
+.images_par:hover{
+    box-shadow: 0 0 4px 4px rgba(236, 55, 0, 0.5);
+}
+
+.columns
+{
+	min-width:320px;
+	margin-top:5%;
+}	
+
+ul
+{
+	margin-top:30px;
+}		
+
+h2
+{
+    text-align:center;
+    
+}
