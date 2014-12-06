@@ -24,13 +24,10 @@ function reload(acierto_new,errores_new,turn_new){
         var elem = document.getElementById("img_"+i)
         elem.setAttribute("src", "images/image_q.jpg");
 		elem.setAttribute("name", rndNumb[i]);
-    }
-//    var elemB = document.getElementById("divErrores");
-//    elemB.removeChild("h5");
-//    elemB.removeChild("p");
-//    var elem = document.getElementById("panelShow");
-//    elem.removeChild("div");
-    
+    }   
+    var elem = document.getElementById("panelShow");
+    var elem_sub = document.getElementById("divMuestra");
+    var borrado = elem.removeChild(elem_sub);   
 }
 
 function set_Q(){
@@ -108,7 +105,7 @@ function compEnd(){
         var elem = document.getElementById("panelShow");        
         var elemDIV = document.createElement("div");   
         elemDIV.setAttribute("class","panel callout radius");
-        elemDIV.setAttribute("id","divErrores");
+        elemDIV.setAttribute("id","divMuestra");
         var elemH5 = document.createElement("h5");        
         elemH5.textContent = "Enhorabuena!";
         var elemP = document.createElement("p");
